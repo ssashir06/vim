@@ -17,9 +17,6 @@ set history=200
 set tabstop=4
 syntax enable
 
-let g:clang_complete_auto=1
-let g:clang_use_library=0
-let g:clang_user_options = '2> NUL || exit 0"'
 
 for path in split(glob($HOME.'/_vimfiles/*').glob($HOME.'/.vimfiles/*'), '\n')
   if isdirectory(path) | let &runtimepath = &runtimepath.','.path | end
