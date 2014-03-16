@@ -15,6 +15,7 @@ set backspace=indent,eol,start
 set nobackup
 set history=200
 set tabstop=4
+set shiftwidth=4
 syntax enable
 
 
