@@ -47,10 +47,12 @@ function! TabToggle()
   if &expandtab
     set shiftwidth=2
     set softtabstop=2
-    set noexpandtab
+    set expandtab
+	echo "Tab Width is 2, with Tab character"
   else
     set shiftwidth=4
     set softtabstop=4
-    set expandtab
+    set noexpandtab
+	echo "Tab Width is 4 , with Space characters"
   endif
 endfunction
