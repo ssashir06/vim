@@ -4,7 +4,7 @@ set renderoptions=type:directx
 
 if has('win32') 
   colorscheme evening
-  set guifont=Ricty_Discord:h10:cSHIFTJIS
+  set guifont=Ricty:h10:cSHIFTJIS
 elseif has('mac')
   colorscheme desert
   set guifont=Courier\ New:h13
