@@ -3,7 +3,7 @@ set lines=30
 
 if has('win32') 
   colorscheme evening
-  set guifont=Ricty_Discord:h10:cSHIFTJIS
+  set guifont=Ricty:h10:cSHIFTJIS
 elseif has('unix')
   colorscheme morning
   set guifont=Ubuntu\ Mono\ 10

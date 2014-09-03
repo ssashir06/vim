@@ -1,3 +1,8 @@
+let $LANG = 'en_US'
+set langmenu=en_US.UTF-8
+source $VIMRUNTIME/delmenu.vim
+source $VIMRUNTIME/menu.vim
+
 set nocompatible
 set autoindent
 set fileencodings=ucs-bom,utf-8,iso-2022-jp,cp932,euc-jp,utf-16,default,latin1
@@ -16,6 +21,8 @@ set nobackup
 set history=200
 set tabstop=4
 set shiftwidth=4
+set helplang=ja
+set renderoptions=type:directx
 syntax enable
 
 
