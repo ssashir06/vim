@@ -1,9 +1,13 @@
 set columns=150
 set lines=30
+set renderoptions=type:directx
 
 if has('win32') 
   colorscheme evening
-  set guifont=Ricty:h10:cSHIFTJIS
+  set guifont=Ricty_Discord:h10:cSHIFTJIS
+elseif has('mac')
+  colorscheme desert
+  set guifont=Courier\ New:h13
 elseif has('unix')
   colorscheme morning
   set guifont=Ubuntu\ Mono\ 10
