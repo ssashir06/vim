@@ -24,6 +24,8 @@ set shiftwidth=4
 set helplang=ja
 set scrolloff=10
 
+syntax on
+
 for path in split(glob($HOME.'/_vimfiles/*').glob($HOME.'/.vimfiles/*'), '\n')
   if isdirectory(path) | let &runtimepath = &runtimepath.','.path | end
 endfor
@@ -91,6 +93,8 @@ NeoBundle 'Shougo/vimproc', {
   \ },
   \ }
 NeoBundleLazy 'jelera/vim-javascript-syntax', {'autoload':{'filetypes':['javascript']}}
+NeoBundle 'leafgarland/typescript-vim'
+NeoBundle 'clausreinke/typescript-tools'
 
 " You can specify revision/branch/tag.
 NeoBundle 'Shougo/vimshell'
